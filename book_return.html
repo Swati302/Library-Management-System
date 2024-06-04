@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Return Book</h1>
+        <nav>
+            <ul>
+                <li><a href="user_home.html">Home</a></li>
+                <li><a href="book_issue.html">Issue Book</a></li>
+                <li><a href="book_return.html">Return Book</a></li>
+                <li><a href="search_books.html">Search Books</a></li>
+                <li><a href="pay_fine.html">Pay Fine</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="returnBookForm">
+                <label for="bookId">Book ID:</label>
+                <input type="text" id="bookId" name="bookId" required>
+                
+                <label for="userId">User ID:</label>
+                <input type="text" id="userId" name="userId" required>
+                
+                <button type="submit">Return Book</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
